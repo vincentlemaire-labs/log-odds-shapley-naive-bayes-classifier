@@ -13,7 +13,7 @@ C'est le point d'entrée du projet. Pour chaque dataset défini dans la liste, i
    - ** C'est ce notebook qui crée les 10 folds stratifiés pour chaque dataset
    
 2. **`ComputeShapleyValues.ipynb`** :
-   - ** Génère pour chaque dataset les valeurs de Shapley en utilisant  [1] et les 10 folds stratifiés produit par le notebook précédent
+   - ** Génère pour chaque dataset les valeurs de Shapley, sur les 10 folds stratifiés produit par le notebook précédent, en utilisant  [1]
 
 3. **`kppv.ipynb`** :
    - ** A l'aide des représentations créées par les 2 notebooks précédents
